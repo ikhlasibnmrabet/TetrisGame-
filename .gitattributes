@@ -1,0 +1,6 @@
+# Treat the main Python backend as Python
+app.py linguist-language=Python
+
+# Mark templates folder as HTML
+templates/* linguist-language=HTML
+
