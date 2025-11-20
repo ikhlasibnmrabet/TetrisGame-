@@ -24,24 +24,24 @@ source venv/bin/activate
 venv\Scripts\activate
 
 
-Install dependencies:
+ # Install dependencies:
 pip install -r requirements.txt
 Run the application:
 python app.py
 
 
-Open in your browser:
+# Open in your browser:
 http://localhost:5000
 Select a level from the menu and click “Start Game”
 Use arrow keys to control the pieces
 
-Controls
+# Controls
 ← → : Move the piece left or right
 ↓ : Drop the piece faster
 ↑ : Rotate the piece
 Space : Pause / Resume the game
 
-Project Structure
+# Project Structure
 jeutetris/
 ├── app.py              # Main Flask application
 ├── templates/
@@ -49,13 +49,13 @@ jeutetris/
 ├── requirements.txt    # Python dependencies
 └── README.md           # This file
 
-Differences from the Python Version
+# Differences from the Python Version
 Web Interface: Replaced Pygame with HTML5 Canvas
 Client-Server Communication: REST API for game logic
 Session Management: Game state handled server-side with Flask sessions
 Same Game Logic: All Tetris rules and mechanics preserved
 
-Technologies Used
+# Technologies Used
 Backend: Flask (Python)
 Frontend: HTML5, CSS3, JavaScript
 Rendering: HTML5 Canvas
