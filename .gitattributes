@@ -4,3 +4,4 @@ app.py linguist-language=Python
 # Mark templates folder as HTML
 templates/* linguist-language=HTML
 
+templates/* linguist-vendored
