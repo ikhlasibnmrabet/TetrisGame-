@@ -1,4 +1,4 @@
-Tetris Web - Flask Application
+# # Tetris Web - Flask Application
 
 A web version of Tetris built with Flask, faithfully reproducing the original game's mechanics in Python.
 
